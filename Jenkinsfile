@@ -44,7 +44,7 @@ pipeline {
         stage('package') {
 	   steps {
                 echo 'package......'
-		sh script: '/opt/apache-maven-3.8.4/bin/mvn package'	
+		sh script: '/opt/apache-maven-3.8.5/bin/mvn package'	
            }		
         }
     }
